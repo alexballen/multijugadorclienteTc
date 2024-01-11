@@ -16,8 +16,9 @@
   width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
   padding: 3px;
-  background-image: url("../images/f5.png");
+  background-image: url("../images/f2.png");
   color: rgb(14, 96, 123);
 }
 
@@ -413,6 +414,10 @@
 @media (max-width: 768px) {
   .containertable {
     max-height: 200px;
+  }
+
+  .title {
+    background-size: cover;
   }
 }
 

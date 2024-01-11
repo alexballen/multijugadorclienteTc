@@ -8,7 +8,7 @@ const ClearStorageE = () => {
   useEffect(() => {
     socket.on("clearStorageTc", (clearStorage) => {
       if (clearStorage) {
-        localStorage.removeItem("rounds");
+        localStorage.removeItem("roundsTc");
         setRoundsStorage([]);
       }
     });
