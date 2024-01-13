@@ -18,3 +18,4 @@ export { default as SetConnectionMessages } from "./SetConnectionMessages";
 export { default as SetErrorAlias } from "./SetErrorAlias";
 export { default as SetErrorRoom } from "./SetErrorRoom";
 export { default as ScrollTop } from "./ScrollTop";
+export { default as HasVibrationService } from "./HasVibrationService";

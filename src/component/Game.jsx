@@ -30,6 +30,7 @@ import {
   SetConnectionMessages,
   SetErrorAlias,
   SetErrorRoom,
+  HasVibrationService,
 } from "../services";
 import { aliasValidator, roomValidator } from "../services/Validator";
 import GameSettings from "./GameSettings";
@@ -117,6 +118,8 @@ const Game = () => {
   SetErrorAlias(setErrorAlias, aliasValidator, userNameId);
 
   SetErrorRoom(setErrorRoom, roomValidator, playersRoom);
+
+  HasVibrationService();
 
   return (
     <>
